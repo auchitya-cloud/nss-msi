@@ -15,73 +15,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <style>
-        /* Content of modal div is center aligned */
-        
-        .modal {
-            text-align: center;
-        }
-        
-        * {
-            box-sizing: border-box;
-        }
-        
-        body {
-            margin: 0;
-            font-family: Arial;
-        }
-        
-        .header {
-            text-align: center;
-            padding: 32px;
-        }
-        
-        .row {
-            display: -ms-flexbox;
-            /* IE10 */
-            display: flex;
-            -ms-flex-wrap: wrap;
-            /* IE10 */
-            flex-wrap: wrap;
-            padding: 0 4px;
-        }
-        /* Create four equal columns that sits next to each other */
-        
-        .column {
-            -ms-flex: 25%;
-            /* IE10 */
-            flex: 25%;
-            max-width: 25%;
-            padding: 0 4px;
-        }
-        
-        .column img {
-            margin-top: 8px;
-            vertical-align: middle;
-            width: 100%;
-        }
-        /* Responsive layout - makes a two column-layout instead of four columns */
-        
-        @media screen and (max-width: 800px) {
-            .column {
-                -ms-flex: 50%;
-                flex: 50%;
-                max-width: 50%;
-            }
-        }
-        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        
-        @media screen and (max-width: 600px) {
-            .column {
-                -ms-flex: 100%;
-                flex: 100%;
-                max-width: 100%;
-            }
-        }
-    </style>
 
     <title>NSS MSI</title>
     <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/dept.css">
 </head>
 
 <body>
@@ -127,10 +64,10 @@
 
     <div class="row">
         <div class="column">
-            <img src="./media/events.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/events.png" data-toggle="modal" data-target="#exampleModal1">
+            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
-                    <div class="modal-content">
+                    <div class="modal-content1">
                         <div class="modal-header">
                             <!-- w-100 class so that header
                         div covers 100% width of parent div -->
@@ -148,9 +85,6 @@
                             <img src="media/EVENTS0.png" />
                         </div>
                         <div class="modal-footer ">
-                            <button type="button " class="btn btn-danger " data-dismiss="modal ">
-                                Close
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -159,8 +93,8 @@
             <br>
 
 
-            <img src="./media/PHOTO.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/PHOTO.png" data-toggle="modal" data-target="#exampleModal2">
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -176,13 +110,11 @@
                             </button>
                         </div>
                         <!--Modal body with image-->
-                        <div class="modal-body">
+                        <div class="modal-body1">
                             <img src="media/content.png" />
                         </div>
                         <div class="modal-footer ">
-                            <button type="button " class="btn btn-danger " data-dismiss="modal ">
-                                Close
-                            </button>
+
                         </div>
                     </div>
                 </div>
@@ -195,8 +127,8 @@
         </div>
         <div class="column">
 
-            <img src="./media/content0.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/content0.png" data-toggle="modal" data-target="#exampleModal3">
+            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -226,8 +158,8 @@
 
             <br>
 
-            <img src="./media/TECH.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/TECH.png" data-toggle="modal" data-target="#exampleModal4">
+            <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -257,8 +189,8 @@
         </div>
 
         <div class="column">
-            <img src="./media/design.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/design.png" data-toggle="modal" data-target="#exampleModal5">
+            <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -285,8 +217,8 @@
                     </div>
                 </div>
             </div>
-            <img src="./media/rand.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/rand.png" data-toggle="modal" data-target="#exampleModal6">
+            <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -316,8 +248,8 @@
         </div>
 
         <div class="column">
-            <img src="./media/creativity.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/creativity.png" data-toggle="modal" data-target="#exampleModal7">
+            <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -344,8 +276,8 @@
                     </div>
                 </div>
             </div>
-            <img src="./media/pr.png" data-toggle="modal" data-target="#exampleModal">
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <img src="./media/pr.png" data-toggle="modal" data-target="#exampleModal8">
+            <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
